@@ -35,5 +35,17 @@
 * 자료 추상화
 * 모듈의 독립성
 
-## 모듈 사례
+## module !== package
 
+패키지는 그룹화된(또는 패키지된) 하나 이상의 모듈을 일컫는다.
+모듈은 독립적인 기능을 지닌 단일 파일을 일컫는다.
+
+패키지의 예:
+```markdown
+Shapes             <- Package name
+  - Circle.js      <-
+  - Rectangle.js   <- Modules that belong to the Shapes package
+  - Square.js      <-
+```
+
+> "`ShapesCircle` 패키지를 설치하고, Rectangle 모듈에 액세스한다."
